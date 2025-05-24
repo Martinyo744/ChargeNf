@@ -1,0 +1,109 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    }
+    
+    .m1{
+        background-image: url(20.jpg);
+    
+    
+    }
+    header{
+        margin-top: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 1rem 9%;
+        background: transparent;
+        filter: drop-shadow(10px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+    
+    }
+  
+    .logo{
+   
+        color: green;
+        font-weight: 500;
+        
+       
+    
+    
+    }
+    
+    .h4{
+text-align: center;
+color: white;
+    }
+    
+    
+    
+    .main{
+        display: flex;
+        justify-content: center; 
+        align-items: center;     
+        
+    }
+
+.label{
+    color: white;
+}
+
+.input{
+height: auto;
+font-size: 1.4rem;
+line-height: 1.25;
+background-color:  #f2f9ff;
+border-color: #cedced;
+border-radius: 30px;
+  
+}
+
+.link{
+    height: auto;
+    font-size: 1.25rem;
+    line-height: 1.25;
+    background-color:  #f2f9ff;
+    border-color: #cedced;
+    border-radius: 30px;
+      
+    }
+    .option2{
+        width: 30%;
+        text-align: center;
+    
+      color: black;
+        font-size: 1rem;
+    }
+    .btn3{
+        
+        color: #fff;
+        text-align: center;
+        background-color: green;
+        border: 0;
+        border-radius: 30px;
+        justify-content: center;
+        width: 40%;
+        padding: .90rem 1.25rem;
+        font-size: 1.25rem;
+        font-weight: 700;
+        line-height: 1.5;
+        opacity: 0.6;
+        transition: 0.3s;
+        }
+        .btn3:active{
+            transform: translateY(4px);
+            box-shadow: 0 5px white;
+        }
+        
+        .btn3:hover { 
+            opacity: 1
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap')

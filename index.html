@@ -1,0 +1,76 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body class="m1" >
+    
+
+    <div ><br>
+
+
+
+        <h4 class="h4">SIGNIN.ChargeNFix</h4>
+
+
+
+       <div class="main" >
+            <form action="login.php" method="post" >
+<br><br>
+         
+       
+
+
+         <br><br><br><br><br><br><br><br><br>
+
+
+
+            
+            <input class="input" type="email" id="gmail"name="EmailAddress" placeholder="EmailAddress" title="must contain @ gmail .com "  size="30"   >
+            <br><br>
+
+
+
+            
+            <input class="input" type="password" id="password" placeholder="Password" name="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" 
+             size="30" ><br><br>  
+
+
+
+            <label class="check" for="show">Show Password</label>
+            <input type="checkbox" id="show" name="show password" value="show password" onclick="myFunction()" > <br><br>
+              
+
+            
+           
+            <button  class="btn2"  >Submit</button>  <button  type="button" onclick="location.href='signup.html'" class="btn2" >  SIGNUP</button>  
+       
+            
+            
+            </form>
+ <script>function myFunction() {
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+              x.type = "text";
+            } else {
+              x.type = "password";
+            }
+          }
+        </script> 
+            </div>
+            </div> 
+<script src="/main.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

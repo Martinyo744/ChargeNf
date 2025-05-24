@@ -1,0 +1,91 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body class="m1" >
+    
+
+    <div ><br>
+
+
+        <h4 class="h4">SIGNUP.ChargeNFix</h4>
+
+       <div class="main" >
+            <form action="db.php" method="post" >
+<br><br>
+        
+         
+       
+         <br><br><br><br><br>
+         
+
+       
+        
+         <input class="input" type="text"required id="fname" name="FirstName" placeholder="First Name" size=30 ><br><br>
+
+
+     
+         <input class="input" type="text"required id="lname" placeholder="Last Name" name="LastName"size=30 ><br><br>
+
+
+         
+         <input class="input" type="tel"required id="phone" placeholder="Phone Number" name="PhoneName" title="must be 11 number"size=30 ><br><br>
+            
+          
+           
+            <input class="input" type="email" id="gmail" placeholder="Email Address" name="EmailAddress" title="must contain @ gmail .com " required size="30"   ><br><br>
+
+
+            
+            <input class="input" type="password" id="password" placeholder="Password" name="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" 
+             required size="30" ><br><br>  
+            
+             <label class="check" for="show">Show Password</label>
+             <input type="checkbox" id="show" name="show password" value="show password" onclick="myFunction()"   > 
+              <br><br> 
+
+             <select required class="option" name="gender" id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+             </select><br><br>
+
+             
+           
+            
+           
+            <button class="btn2"   >sign up</button>  <button type="button" onclick="location.href='index.html'" class="btn2" >Sign In</button> 
+       
+            
+            
+            </form>
+
+ <script>function myFunction () {
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+              x.type = "text";
+            } else {
+              x.type = "password";
+            }
+          }
+        </script> 
+        
+        
+             
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
